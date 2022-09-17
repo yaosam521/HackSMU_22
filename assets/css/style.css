@@ -15,3 +15,20 @@
     text-align: center;
     color: white;
 }
+
+#columns{
+    text-align: center;
+    background-color: rgb(30, 57, 211);
+    padding: 10px;
+}
+
+#col{
+    text-align: center;
+    background-color: rgb(30, 57, 211);
+    padding: 10px;
+}
+
+#allColumns{
+    text-align: center;
+    padding-top: 10px;
+}
