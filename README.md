@@ -3,6 +3,6 @@ Superhero Dispatch Startup for HackSMU 22, contains code for everything we did.
 
 ## Members
 - Sam Yao
-- Cait Pough
+- Cait Prough
 - Joey Luu
 - Sebastian Rodriguez
