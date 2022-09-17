@@ -4,6 +4,7 @@ def latestCrime():
   from socrata.authorization import Authorization
   from socrata import Socrata
   from sodapy import Socrata
+  import pandas as pd
   #authorization
   auth = Authorization(
     "",
