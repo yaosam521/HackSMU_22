@@ -10,10 +10,13 @@ account_sid = os.environ['TWILIO_ACCOUNT_SID']
 auth_token = os.environ['TWILIO_AUTH_TOKEN']
 client = Client(account_sid, auth_token)
 
+priority_alert = latestCrime()
+
+
 numbers_to_message = ['+16823086376', '+14058758142']
 for number in numbers_to_message:
     client.messages.create(
-        body='\nALERT!!!\nTHERE IS A CRIME DOWN THE STREET RIGHT NOW!\nGo solve the issue please',
+        body='\nALERT!!!\nThere is an incident occurring in the %s division, at ',
         from_='+19787186138',
         media_url=['https://live.staticflickr.com/7186/6806447086_f2c41dfd13_n.jpg'],
         to=number
