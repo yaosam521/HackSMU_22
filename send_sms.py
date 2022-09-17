@@ -11,6 +11,7 @@ auth_token = os.environ['TWILIO_AUTH_TOKEN']
 client = Client(account_sid, auth_token)
 
 numbers_to_message = ['+16823086376', '+14058758142']
+latest_crime = latestCrime() #Get the latest crime
 for number in numbers_to_message:
     client.messages.create(
         body='\nALERT!!!\nTHERE IS A CRIME DOWN THE STREET RIGHT NOW!\nGo solve the issue please',
