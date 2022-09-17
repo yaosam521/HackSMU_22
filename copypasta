@@ -1,0 +1,12 @@
+echo "export TWILIO_ACCOUNT_SID='AC328b37ed43eb130e5787f30baa6ec2e6'" > twilio.env
+echo "export TWILIO_AUTH_TOKEN='73ff574604797b39412079b913dc479c'" >> twilio.env
+source ./twilio.env
+
+messaging service something?:
+MGcd626b2f4bdc74974f680075ae5c1f63
+
+account number SID:
+PNbf420fe6016f35b2ffbdc0597bc51532
+
+twilio api:messaging:v1:services:phone-numbers:create --service-sid MGcd626b2f4bdc74974f680075ae5c1f63 --phone-number-sid PNbf420fe6016f35b2ffbdc0597bc51532
+
