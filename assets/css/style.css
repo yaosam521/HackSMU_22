@@ -6,3 +6,12 @@
 #brand-text{
     font-size: larger;
 }
+
+#welcome-banner{
+    background-color: #1B4386;
+}
+
+#banner-text{
+    text-align: center;
+    color: white;
+}
