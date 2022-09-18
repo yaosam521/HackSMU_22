@@ -1,6 +1,6 @@
 def latestCrime():
-  !pip3 install sodapy
-  !pip3 install socrata-py
+  # !pip3 install sodapy
+  # !pip3 install socrata-py
   from socrata.authorization import Authorization
   from socrata import Socrata
   from sodapy import Socrata
