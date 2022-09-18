@@ -12,12 +12,12 @@ client = Client(account_sid, auth_token)
 
 priority_alert = latestCrime()
 
-
 numbers_to_message = ['+16823086376', '+14058758142']
 latest_crime = latestCrime() #Get the latest crime
+
 for number in numbers_to_message:
     client.messages.create(
-        body='\nALERT!!!\nThere is an incident occurring in the %s division, at ',
+        body='{latest_crime}'
         from_='+19787186138',
         media_url=['https://live.staticflickr.com/7186/6806447086_f2c41dfd13_n.jpg'],
         to=number
