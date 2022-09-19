@@ -1,3 +1,5 @@
+## <p align="center">[The Devpost](https://devpost.com/software/city-of-dallas-division-of-crime-and-public-safety) </p>
+
 # HackSMU_22
 Superhero Dispatch Startup for HackSMU 22, contains code for everything we did.
 
@@ -6,7 +8,6 @@ Superhero Dispatch Startup for HackSMU 22, contains code for everything we did.
 - Cait Prough
 - Joey Luu
 - Sebastian Rodriguez
-
 
 ## Inspiration
       - As we were brainstorming ideas for what our project should be, we jokingly had said to create either a superhuman agency startup, or an alerting system that would warn you when you were being robbed or if you were being chased by the police (basically alerts for criminals). Eventually, we actually made both of these ideas a reality though, with some tweaks obviously, and were able to combine multiple of our skill sets into the project by combining these ideas, too.
@@ -28,3 +29,5 @@ Superhero Dispatch Startup for HackSMU 22, contains code for everything we did.
 
 ## What's next for City of Dallas Division of Crime and Public Safety
       - Some major updates that we wanted to implement, but didn't have the time to implement during the hackathon, was integrating the Twilio API into the website, so that people, especially superheroes, could be alerted of the current incident reports. Also, we wanted to program our Twilio software to not only send messages, but also receive them. Lastly, we truly wanted to add more to our website so that the website would be very user-friendly and easy to navigate, and actually get involved with the city of Dallas (in a perfect world where superheroes actually exist)!
+      
+
